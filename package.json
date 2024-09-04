@@ -1,0 +1,26 @@
+{
+  "name": "rgba-to-hex",
+  "version": "1.0.0",
+  "description": "A package to convert rgba colours to hex",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SachinSuresh010/rgba-to-hex.git"
+  },
+  "keywords": [
+    "rgba",
+    "hex",
+    "convert",
+    "color",
+    "colour"
+  ],
+  "author": "Sachin V Suresh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SachinSuresh010/rgba-to-hex/issues"
+  },
+  "homepage": "https://github.com/SachinSuresh010/rgba-to-hex#readme"
+}
