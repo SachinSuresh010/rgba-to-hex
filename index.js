@@ -18,7 +18,7 @@ function rgbaToHex(rgbaString) {
     const red = r.toString(16).padStart(2, '0');
     const green = g.toString(16).padStart(2, '0');
     const blue = b.toString(16).padStart(2, '0');
-    let alpha = typeof rgbaValues[3] !== 'undefined' ? Math.round(255 * a).toString(16).padStart(2, '0') : '';
+    let alpha = (typeof rgbaValues[3] !== 'undefined' && parseInt(rgbaValues[3]) !== 1) ? Math.round(255 * a).toString(16).padStart(2, '0') : '';
     // Concatenate the hexadecimal components
     const hex = `#${red}${green}${blue}${alpha}`;
     return hex;
